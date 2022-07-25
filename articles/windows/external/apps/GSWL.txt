@@ -1,0 +1,38 @@
+This Document describes the GSWL json configuration file, the default will be shown first then the options will be descriped.
+
+Default Config:
+{
+ "conf_ver": 6,
+ "gwsl_ver": "1.4.0",
+ "general": {
+  "pulseaudio": true,
+  "clipboard": true,
+  "start_menu_mode": false,
+  "shell_gui": "cmd",
+  "acrylic_enabled": true
+ },
+ "graphics": {
+  "window_mode": "multi",
+  "hidpi": true
+ },
+ "putty": {
+  "ip": null,
+  "ssh_key": null
+ },
+ "distro_blacklist": [
+  "docker"
+ ],
+ "app_blacklist": [
+  "exampleblock"
+ ],
+ "xserver_profiles": {
+  "Plain VcXsrv": []
+ }
+}
+
+general-
+"pulseaudio"- bolian | enable pulseaudio
+
+graphics-
+"window_mode"- string | sets x-window mode, wayland is not effected by this, valid options are:
+"multi" "single window mode" "Fullscreen"
