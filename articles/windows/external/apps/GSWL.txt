@@ -35,4 +35,4 @@ general-
 
 graphics-
 "window_mode"- string | sets x-window mode, wayland is not effected by this, valid options are:
-"multi" "single window mode" "Fullscreen"
+"multi" "single" "full"
