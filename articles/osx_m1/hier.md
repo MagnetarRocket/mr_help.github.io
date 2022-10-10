@@ -1,59 +1,59 @@
 A outline of filesystem hieracrchy of modern versions of macOS, due to `File System Programming Guide` not including a description of the current macOS
 filesystem hieracy, i've decided to make one outline here:
 
-	`/` :Root directory of the system
+`/` :Root directory of the system
   
 	
-	`Applications/`: macOS applications aviable globaly on the system.
+`Applications/`: macOS applications aviable globaly on the system.
 	
-	`Library/`:
+`Library/`:
 	
-	`System/`: System files-
+`System/`: System files-
 	
--`Applications/`:Standard macOS apps
+*`Applications/`:Standard macOS apps
 
--`Developer/`
+*`Developer/`
 
--`DriverKit/`
+*`DriverKit/`
 
--`Library/`
+*`Library/`
 
--`Volumes/`
+*`Volumes/`
 
-`-iOSSupport/`
+*`iOSSupport/`
 
 	
-	`Users/`:
+`Users/`:
 	
-	`Volumes/`: Simular to `Media`, lists all mounted filesystems, can lead to recursion.
+`Volumes/`: Simular to `Media`, lists all mounted filesystems, can lead to recursion.
 	
-	`bin/`:
+`bin/`:
 	
-	`cores/`:
+`cores/`:
 	
-	`dev/`:
+`dev/`:
 	
-	`etc@`:
+`etc@`:
 	
-	`home@`: 
+`home@`: 
 	
-	`opt/`: A directory meant for tridtional unix apps too complex for '/bin' and package managers.
+`opt/`: A directory meant for tridtional unix apps too complex for '/bin' and package managers.
 	
-	`private/`:
+`private/`:
 	
-	`sbin/`:
+`sbin/`:
 	
-	`tmp@`:
+`tmp@`:
 
-	`usr/`:
+`usr/`:
 	
-	`var@`:
+`var@`:
 `
 There are some items not meant to be seen in regular use by the user:
 
-	`.VolumeIcon.icns@`:
+`.VolumeIcon.icns@`:
 
-	`.file`:
+`.file`:
 		
-	`.vol/`:
+`.vol/`:
 	
